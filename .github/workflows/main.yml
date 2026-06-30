@@ -1,0 +1,12 @@
+ name: First-workflow
+
+ on: 
+  push:
+
+ jobs:
+   hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: welcome command
+        run: echo "Welcome to my action"
+      
