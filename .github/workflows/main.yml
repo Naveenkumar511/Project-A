@@ -9,4 +9,9 @@
     steps:
       - name: welcome command
         run: echo "Welcome to my action"
-      
+ 
+   welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - name: welcome command
+        run: echo "Welcome"
